@@ -1,7 +1,6 @@
 * {
     text-decoration: none;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'rubiklight';
 }
 
@@ -35,6 +34,7 @@ body {
     justify-content: center;
     width: 100%;
     min-height: 100vh;
+
 }
 
 .attribution {
@@ -217,3 +217,119 @@ body {
     border-radius: 15px; 
 }
 
+/*Responsive*/
+
+@media (max-width: 1320px) and (min-width: 1195px) {
+
+}
+
+
+@media (max-width: 1195px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 96%;
+    }
+
+    .container-right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .name-card {
+        width: 100%;
+    }
+
+    .name-card-top {
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .name-card-bottom {
+        flex-direction: row;
+    }
+
+    #monthly {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
+    #weekly {
+        margin-left: 0px;
+    }
+
+    .container-left {
+        height: 1200px;
+        width: 100%;
+    }
+
+    .container-left-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .play {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .study {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .container-left-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exercise {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .social {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .selfcare {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media (max-width: 450px) {
+    .name-card-top {
+        align-items: center;
+    }
+
+    #profilPhoto {
+        height: 61px;
+        margin-top: 20px;
+
+    }
+
+    .name-card-top-text {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .name-card-top-text h1 {
+        font-size: 22px;
+    }
+}
