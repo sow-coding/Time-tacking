@@ -353,7 +353,7 @@ svg {
     overflow: hidden;
 }
 
-.work-data-top p {
+/*.work-data-top p {
     margin-left: 25px;
     font-style: normal;
     font-weight: 500;
@@ -361,6 +361,78 @@ svg {
     line-height: 21px;
     font-family: 'rubikregular';
     color: #FFFFFF;
+}*/
+
+#workname {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: 'rubikregular';
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#playname {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rubikregular';
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#studyname {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rubikregular';
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#exercisename {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rubikregular';
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#socialname {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rubikregular';
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#selfcarename {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'rubikregular';
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .work-data-bottom {
@@ -390,6 +462,7 @@ svg {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    margin-bottom: 8px;
     line-height: 18px;
     color: #BBC0FF;
 }
