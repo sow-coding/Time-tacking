@@ -62,6 +62,7 @@ body {
     align-items: flex-start;
     background-color: #1C204B;
     border-radius: 15px;
+    height: 100%;
 }
 
 .name-card-top {
@@ -88,7 +89,7 @@ body {
     margin-left: 40px;
 }
 
-.name-card-top-text p {
+#report {
     font-family: 'rubiklight';
     font-style: normal;
     font-weight: 400;
@@ -121,14 +122,56 @@ body {
     margin-top: 25px;
 }
 
-.name-card-bottom p {
+/*.name-card-bottom p {
     margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+    margin-top: 18px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}*/
 
+#daily {
     color: #7078C9;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 20px;
+}
+
+#weekly {
+    color: white;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 20px;
+
+}
+
+#monthly {
+    color: #7078C9;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 20px;
+
 }
 
 #daily:hover {
@@ -307,6 +350,7 @@ svg {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    overflow: hidden;
 }
 
 .work-data-top p {
@@ -342,6 +386,54 @@ svg {
     color: #BBC0FF;
 }
 
+.workbefore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BBC0FF;
+}
+
+.playbefore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BBC0FF;
+}
+
+.studybefore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BBC0FF;
+}
+
+.exercisebefore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BBC0FF;
+}
+
+.socialbefore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BBC0FF;
+}
+
+.selfcarebefore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BBC0FF;
+}
+
 .play-data {
     background-color: #1C204B;
     height: 80%;
@@ -357,6 +449,8 @@ svg {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    overflow: hidden;
+
 }
 
 .play-data-top p {
@@ -407,6 +501,8 @@ svg {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    overflow: hidden;
+
 }
 
 .study-data-top p {
@@ -457,6 +553,8 @@ svg {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    overflow: hidden;
+
 }
 
 .exercise-data-top p {
@@ -507,6 +605,8 @@ svg {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    overflow: hidden;
+
 }
 
 .social-data-top p {
@@ -557,6 +657,8 @@ svg {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    overflow: hidden;
+
 }
 
 .selfcare-data-top p {
@@ -624,6 +726,10 @@ svg {
     cursor: pointer;
 }
 
+h1 {
+    display: flex;
+}
+
 /*Responsive*/
 
 @media (max-width: 1320px) and (min-width: 1195px) {
@@ -634,6 +740,11 @@ svg {
 @media (max-width: 1195px) {
     * {
         overflow-y: scroll;
+    }
+
+    p {
+        margin: 0px 0px 0px 0px;
+        width: 0px;
     }
 
     .container {
@@ -673,6 +784,7 @@ svg {
 
     #weekly {
         margin-left: 0px;
+        color: white;
     }
 
     .container-left {
@@ -792,6 +904,11 @@ svg {
 }
 
 @media (max-width: 450px) {
+    p {
+        margin: 0px 0px 0px 0px;
+        width: 0px;
+    }
+
     .name-card-top {
         align-items: center;
     }
@@ -816,7 +933,63 @@ svg {
         overflow: hidden;
     }
 
-    .work-data-bottom p {
+    .workhours {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+
+    .playhours {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .studyhours {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .exercisehours {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .socialhours {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .selfcarehours {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .workbefore {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .playbefore {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .studybefore {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .exercisebefore {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .socialbefore {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .selfcarebefore {
         font-size: 10px;
         margin-bottom: 8px;
     }
