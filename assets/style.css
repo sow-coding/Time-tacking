@@ -169,6 +169,42 @@ body {
     height: 45%; 
 }
 
+svg {
+    position: relative;
+    height: 15%;
+    right: 15px;
+}
+
+#worksvg {
+    position: relative;
+    top: 7px;
+}
+
+#playsvg {
+    position: relative;
+    bottom: 7px;
+}
+
+#studysvg {
+    position: relative;
+    bottom: 7px;
+}
+
+#exercisesvg {
+    position: relative;
+    bottom: 7px;
+}
+
+#socialsvg {
+    position: relative;
+    bottom: 7px;
+}
+
+#selfcaresvg {
+    position: relative;
+    bottom: 7px;
+}
+
 .work {
     width: 30%;
     height: 100%;
@@ -176,7 +212,9 @@ body {
     border-radius: 15px; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 2;
 }
 
 .play {
@@ -187,6 +225,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 .study {
@@ -197,6 +237,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 .exercise {
@@ -207,6 +249,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 .social {
@@ -217,6 +261,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 .selfcare {
@@ -227,6 +273,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 .menu {
@@ -599,6 +647,10 @@ body {
         align-items: center;
     }
 
+    .container-left {
+        justify-content: flex-start;
+    }
+
     .name-card {
         width: 100%;
     }
@@ -674,6 +726,69 @@ body {
 
     }
 
+    .menu {
+        width: 5%;
+    }
+
+    .work-data-bottom h1 {
+        font-size: 36px;
+        overflow: hidden;
+    }
+
+    .work-data-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .play-data-bottom h1 {
+        font-size: 36px;
+        overflow: hidden;
+    }
+
+    .play-data-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .study-data-bottom h1 {
+        font-size: 36px;
+        overflow: hidden;
+    }
+
+    .study-data-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .exercise-data-bottom h1 {
+        font-size: 36px;
+        overflow: hidden;
+    }
+
+    .exercise-data-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .social-data-bottom h1 {
+        font-size: 36px;
+        overflow: hidden;
+    }
+
+    .social-data-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .selfcare-data-bottom h1 {
+        font-size: 36px;
+        overflow: hidden;
+    }
+
+    .selfcare-data-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -694,5 +809,65 @@ body {
 
     .name-card-top-text h1 {
         font-size: 22px;
+    }
+
+    .work-data-bottom h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .work-data-bottom p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .play-data-bottom h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .play-data-bottom p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .study-data-bottom h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .study-data-bottom p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .exercise-data-bottom h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .exercise-data-bottom p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .social-data-bottom h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .social-data-bottom p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    .selfcare-data-bottom h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+
+    .selfcare-data-bottom p {
+        font-size: 10px;
+        margin-bottom: 8px;
     }
 }
